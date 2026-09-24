@@ -178,6 +178,7 @@ td { font-size: .8125rem; line-height: 1.125rem; padding: .7rem .75rem; border-b
 .check-details .button { margin-top: 10px; }
 .expert-card { padding: 16px; }
 .expert-card > p { color: var(--secondary); font-size: .8125rem; }
+.expert-card > .status { margin-bottom: 10px; }
 .reviewer { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
 .reviewer div { display: flex; flex-direction: column; }
 .reviewer b { font-size: .8125rem; }

@@ -325,7 +325,7 @@ function CheckRow({ check, queued, running }: { check: CheckItem; queued: boolea
 
 function ExpertReview() {
   const { expertRequested, expertReceived, setOverlay } = useApp();
-  return <section className="card expert-card"><h2>Expert review</h2>{expertReceived ? <><div className="reviewer"><span className="avatar small">RC</span><div><b>Rivera & Co. CPAs</b><small>Reviewed 4:10 PM</small></div></div><p>Sign the lease under Northstar Retail LLC, the entity that runs your stores. Plan for Texas franchise tax filings starting next year. The rest of the plan looks sound.</p></> : expertRequested ? <div className="expert-wait"><LoaderCircle className="spinner" /><p>Rivera & Co. CPAs is reviewing the decision.</p></div> : <><p>Get a second opinion before you share this.</p><Button onClick={() => setOverlay('expert')}>Ask an expert</Button></>}</section>;
+  return <section className="card expert-card"><h2>Expert review</h2>{expertReceived ? <><div className="reviewer"><span className="avatar small">RC</span><div><b>Rivera & Co. CPAs</b><small>Reviewed 4:10 PM</small></div></div><Status status="fail">Not yet</Status><p>Do not sign the lease yet. The November plan drops cash to $1.35M, below the $1.5M minimum. Rework the funding or opening date, then complete the Texas entity and franchise tax setup before proceeding.</p></> : expertRequested ? <div className="expert-wait"><LoaderCircle className="spinner" /><p>Rivera & Co. CPAs is reviewing the decision.</p></div> : <><p>Get a second opinion before you share this.</p><Button onClick={() => setOverlay('expert')}>Ask an expert</Button></>}</section>;
 }
 
 function DecisionMemo() {
