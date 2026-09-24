@@ -1,0 +1,6 @@
+deck/
+dist/
+tsconfig.tsbuildinfo
+node_modules/
+qa/
+.DS_Store

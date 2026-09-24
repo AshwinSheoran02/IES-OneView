@@ -1,2 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
-:root{--color-text:#393A3D;--color-text-secondary:#6B6C72;--color-text-disabled:#9A9CA3;--color-bg-page:#F4F5F8;--color-bg-surface:#FFFFFF;--color-bg-hover:#F0F1F4;--color-bg-selected:#E8F2FA;--color-bg-subtle:#EEF0F2;--color-border:#D4D7DC;--color-divider:#E6E8EB;--color-action:#108000;--color-action-hover:#0C6B00;--color-link:#0077C5;--color-link-hover:#005A96;--color-focus:#0077C5;--color-positive:#1E7B34;--color-positive-bg:#EAF6EC;--color-caution:#8A5A00;--color-caution-bg:#FFF6E5;--color-negative:#C9302C;--color-negative-bg:#FDECEB;--color-chart-current:#0077C5;--color-chart-prior:#B8BCC4;--color-skeleton:#ECEEF1;--color-tooltip-bg:#393A3D;--color-scrim:rgba(30,32,36,.32);--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;--space-7:40px;--space-8:48px;--radius-sm:4px;--radius-md:8px;--shadow-overlay:0 8px 24px rgba(0,0,0,.16)}
+
+:root {
+  --text: #393A3D;
+  --secondary: #6B6C72;
+  --disabled: #9A9CA3;
+  --page: #F5F6F8;
+  --surface: #FFFFFF;
+  --hover: #F0F2F5;
+  --selected: #EAF1FF;
+  --subtle: #EEF0F3;
+  --border: #D8DBE0;
+  --divider: #E7E9EC;
+  --action: #1F63F0;
+  --action-hover: #174FC4;
+  --brand-line: #236CFF;
+  --range-band: rgba(35, 108, 255, 0.12);
+  --baseline-line: #9AA1AC;
+  --pass: #1E7B34;
+  --pass-bg: #EAF6EC;
+  --caution: #8A5A00;
+  --caution-bg: #FFF4E0;
+  --fail: #C9302C;
+  --fail-bg: #FDECEB;
+  --policy-line: #C9302C;
+  --shadow: rgba(20, 25, 35, 0.14);
+  --scrim: rgba(20, 25, 35, 0.42);
+  --code-bg: #202226;
+  --code-text: #F6F7F8;
+}
